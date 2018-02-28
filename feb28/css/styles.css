@@ -1,0 +1,22 @@
+body {
+  background-color: green;
+}
+
+section {
+  background-color: darkviolet;
+  padding: 10px;
+  margin: 50px;
+  height: 500px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: stretch;
+}
+
+div {
+  background-color: darkred;
+  font-size: 50px;
+  color: darkgoldenrod;
+  margin: 5px;
+  flex: 1;
+}
+/*# sourceMappingURL=styles.css.map */

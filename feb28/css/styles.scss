@@ -1,0 +1,26 @@
+body {
+    background-color: green;
+}
+
+section {
+    background-color: darkviolet;
+    padding: 10px; 
+    margin: 50px;
+    height: 500px;
+
+    display: flex;
+    flex-direction: row-reverse;
+    // justify-content: center;
+    align-items: stretch;
+}
+
+
+div {
+    // width: 300px;
+    // height: 65px;
+    background-color: darkred;
+    font-size: 50px;
+    color: darkgoldenrod;
+    margin: 5px; 
+    flex: 1;
+}
