@@ -1,0 +1,40 @@
+main {
+  background-color: #91ff00;
+  height: 50vh;
+  position: relative;
+}
+
+.img1 {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.img2 {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  z-index: 5;
+}
+
+.img3 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.img4 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+div {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 255, 255, 0.5);
+}
+/*# sourceMappingURL=styles.css.map */

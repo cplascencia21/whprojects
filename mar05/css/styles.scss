@@ -1,0 +1,42 @@
+main {
+    background-color: rgb(145, 255, 0);
+    height: 50vh;
+    position: relative;
+}
+
+.img1 {
+    position: absolute;
+    // top: 
+    right: 0px;
+    bottom: 0px;
+    // left:
+}
+
+.img2 {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: 5;
+}
+
+.img3 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.img4 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+
+div {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: transparentize(aqua, .5);
+}
