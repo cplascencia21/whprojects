@@ -49,27 +49,26 @@ h2 {
 }
 
 h3 {
-  position: relative;
-  left: 100px;
-  top: 50px;
+  text-align: center;
 }
 
-h4 {
-  position: relative;
-  left: 200px;
-  top: 70px;
-}
-
-.list {
-  position: absolute;
-  left: 400px;
-  top: none;
-  bottom: 275px;
+.coursework {
+  display: flex;
+  justify-content: center;
 }
 
 .v {
   text-align: center;
-  position: relative;
-  top: 150px;
+  margin: 40px;
+}
+
+.contentrow {
+  display: flex;
+  margin: 40px;
+  justify-content: center;
+}
+
+.righthalf {
+  margin-left: 20px;
 }
 /*# sourceMappingURL=styles.css.map */
