@@ -38,6 +38,12 @@ body {
 
  h2 {
      text-align: center;
+     color: white;
+     border: rgb(6, 43, 43);
+     border-width: 2 5px;
+     border-style: solid;
+     border-width: thick;
+     background-color: black;
  }
 
 .center {
@@ -71,4 +77,20 @@ h3 {
 
 .righthalf {
     margin-left: 20px;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+}
+
+.Bitwise {
+    justify-content: center;
+    text-align: center;
+    margin: 40px;
+}
+
+.hobbies {
+    justify-content: space-around;
+    display: flex;
 }

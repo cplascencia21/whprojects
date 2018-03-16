@@ -38,6 +38,12 @@ nav ul a:hover, nav ul a.active {
 
 h2 {
   text-align: center;
+  color: white;
+  border: #062b2b;
+  border-width: 2 5px;
+  border-style: solid;
+  border-width: thick;
+  background-color: black;
 }
 
 .center {
@@ -70,5 +76,21 @@ h3 {
 
 .righthalf {
   margin-left: 20px;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+}
+
+.Bitwise {
+  justify-content: center;
+  text-align: center;
+  margin: 40px;
+}
+
+.hobbies {
+  justify-content: space-around;
+  display: flex;
 }
 /*# sourceMappingURL=styles.css.map */
