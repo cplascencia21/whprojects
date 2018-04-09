@@ -69,9 +69,47 @@
 
 
 // array of movies
-var movies = ["Undisputed", "Balto", "Blood Sport", "Open Range", "Lion King"];
-console.log(movies);
-console.log(movies.lenght);
+// var movies = ["Undisputed", "Balto", "Blood Sport", "Open Range", "Lion King"];
+// console.log(movies);
+// console.log(movies.lenght);
 
-movies.push("Die Hard");
-console.log(movies);
+// movies.push("Die Hard");
+// console.log(movies);
+var button = document.querySelector("#story");
+button.addEventListener("click", story);
+
+function story(){
+    var question1 = prompt ("Do you go throught the forest or through the mountain?");
+    if (question1 == "forest") {
+        forest();
+    } else if (question1 == "mountain") {
+        mountain();
+    }
+}
+
+function forest() {
+    var question2 = prompt ("Do you climb the trees or swim in the river?");
+    if (question2 == "trees") {
+        trees();
+    } else if (question2 == "river") {
+        river();
+    }
+}
+
+function mountain() {
+var question3 = prompt ("Do you light a fire or use a flash light?");
+    if (question3 == "fire") {
+        fire();
+    } else if (question3 == "flashlight") {
+        flashlight();
+    }
+}
+
+function trees() {
+var question1 = prompt ("Do you go throught the forest or through the mountain?");
+    if (question1 == "forest") {
+        forest();
+    } else if (question1 == "mountain") {
+        console.log ("moutain")
+    }
+}
