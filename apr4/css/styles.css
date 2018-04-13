@@ -1,1 +1,11 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+body {
+  background-color: #e0d1d1;
+}
+
+#story {
+  background-color: aqua;
+  height: 30px;
+  width: 100px;
+  font-size: 15px;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -79,37 +79,63 @@ var button = document.querySelector("#story");
 button.addEventListener("click", story);
 
 function story(){
-    var question1 = prompt ("Do you go throught the forest or through the mountain?");
-    if (question1 == "forest") {
+    var question1 = prompt ("Do you go through the forest, through the mountain or over the forest and mountain?");
+    if (question1 == "through the forest") {
         forest();
-    } else if (question1 == "mountain") {
+    } else if (question1 == "through the mountain") {
         mountain();
+    } else if (question1 == "over the forest and mountain") {
+       over();
     }
 }
 
 function forest() {
     var question2 = prompt ("Do you climb the trees or swim in the river?");
-    if (question2 == "trees") {
+    if (question2 == "climb the trees") {
         trees();
-    } else if (question2 == "river") {
+    } else if (question2 == "swim in the river") {
         river();
     }
 }
 
 function mountain() {
-var question3 = prompt ("Do you light a fire or use a flash light?");
-    if (question3 == "fire") {
+    var question3 = prompt ("Do you light a fire or use a flash light?");
+    if (question3 == "light a fire") {
         fire();
-    } else if (question3 == "flashlight") {
+    } else if (question3 == "use a flash light") {
         flashlight();
     }
 }
 
-function trees() {
-var question1 = prompt ("Do you go throught the forest or through the mountain?");
-    if (question1 == "forest") {
-        forest();
-    } else if (question1 == "mountain") {
-        console.log ("moutain")
+function over() {
+    var question2 = prompt ("Do you use a plane or use a catapult");
+    if (question2 == "use a plane") {
+        plane();
+    } else if (question2 == "use a catapult") {
+        catapult();
     }
+}
+
+function trees() {
+    var question4 = alert ( "The branch broke, you fell and broke your neck");
+}
+
+function river() {
+    var question4 = alert ("The river was full of piranhas and u were eaten");
+}
+
+function fire() {
+    var question4 = alert ("The fire went out and you fell down a hole");
+}
+
+function flashlight() {
+    var question4 = alert ("The batteries died and you fell down a hole");
+}
+
+function plane() {
+    var question4 = alert ( "The plane ran out of fuel and you crashed into the mountain");
+}
+
+function catapult() {
+    var question4 = alert ( "The catapult was off target and you were thrown into the mountian");
 }
