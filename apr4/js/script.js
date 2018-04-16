@@ -125,7 +125,7 @@ function river() {
 }
 
 function fire() {
-    var question4 = alert ("The fire went out and you fell down a hole");
+    var question4 = alert ("The fire went out and you fell in a hole");
 }
 
 function flashlight() {
@@ -138,4 +138,22 @@ function plane() {
 
 function catapult() {
     var question4 = alert ( "The catapult was off target and you were thrown into the mountian");
+}
+
+var myTimer = setInterval(updateTimer, 100);
+
+function updateTimer(){
+    var theTime = new Date();
+    var timeStr = `
+    ${theTime.toLocaleString('en-us', {hour: 'numeric', hour12:false, minute: '2-digit', second: '2-digit'})}
+    `;
+    document.querySelector('h3').textContent = timeStr;
+}
+
+function runTimer(){
+    var theTime = new Date();
+    var timeStr = `
+    ${theTime.toLocaleString('en-us', {hour: 'numeric', hour12:false, minute: '2-digit', second: '2-digit'})}
+    `;
+    document.querySelector('h3').textContent = timeStr;
 }

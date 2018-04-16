@@ -2,10 +2,30 @@ body {
   background-color: #e0d1d1;
 }
 
+h1 {
+  text-align: center;
+  margin: 50px;
+  color: #012701;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
 #story {
-  background-color: aqua;
+  background-color: #022b2b;
   height: 30px;
   width: 100px;
   font-size: 15px;
+  color: white;
+}
+
+h3 {
+  text-align: center;
+  height: 40px;
+  color: red;
 }
 /*# sourceMappingURL=styles.css.map */
