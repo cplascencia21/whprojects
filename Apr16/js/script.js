@@ -34,7 +34,7 @@ ${theTime.toLocaleString('en-us', {hour: 'numeric', hour12:false, minute: '2-dig
 var stopBtn = document.querySelector('button')
 stopBtn.addEventListener('click', function(){
     clearInterval(mytimer)
-});
+})
 
 // Set Interval Function
 var myTimer = setInterval(updateTimer, 100);
