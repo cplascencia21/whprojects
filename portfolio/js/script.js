@@ -1,6 +1,7 @@
 
 
 function UserGuide() {
-    document.getElementById('key').style.color = "white";
-    document.getElementById('key').style.backgroundColor = "red";
+    document.getElementById('key').style.color = "black";
+    document.getElementById('key').style.backgroundColor = "yellow";
+    
 }
