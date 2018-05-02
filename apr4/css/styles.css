@@ -1,5 +1,6 @@
 body {
-  background-color: #e0d1d1;
+  background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/V3GIUd5/black-vines-border-background-animation-loop-black-white_njajc2qq__F0000.png");
+  background-position: center;
 }
 
 h1 {
@@ -35,9 +36,5 @@ h3 {
   text-align: center;
   height: 40px;
   color: red;
-}
-
-iframe {
-  background: none;
 }
 /*# sourceMappingURL=styles.css.map */
