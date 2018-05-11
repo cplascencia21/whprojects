@@ -2,20 +2,43 @@ html {
   font-family: sans-serif;
 }
 
-body {
-  background-color: #cbe0cb;
+.home {
+  background-image: url(https://static.wixstatic.com/media/3e9de9_9db59f285d124fc8a038f860de38caeb~mv2_d_2048_1365_s_2.jpg_srz_980_653_85_22_0.50_1.20_0.00_jpg_srz);
+  background-size: cover;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.about {
+  background-image: url(https://www.walldevil.com/wallpapers/a91/spain-windmill-europe.jpg);
+  background-size: cover;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.contact {
+  background-image: url(https://ih1.redbubble.net/image.10806683.4747/flat,1000x1000,075,f.jpg);
+  background-size: cover;
+  margin: auto;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
-}
-
-nav {
-  background-color: #062b2b;
-  padding: 10px;
-  color: white;
 }
 
 nav ul {
@@ -38,12 +61,6 @@ nav ul a:hover, nav ul a.active {
 
 h2 {
   text-align: center;
-  color: white;
-  border: #062b2b;
-  border-width: 2 5px;
-  border-style: solid;
-  border-width: thick;
-  background-color: black;
 }
 
 .center {
@@ -87,6 +104,7 @@ h3 {
   justify-content: center;
   text-align: center;
   margin: 40px;
+  background-blend-mode: lighten;
 }
 
 .hobbies {
