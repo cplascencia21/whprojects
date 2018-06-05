@@ -1,5 +1,10 @@
+body {
+    color: rgb(242, 245, 247);
+}
+
 html {
     font-family: sans-serif;
+    
 }
 
 .home {
@@ -11,6 +16,7 @@ html {
     bottom: 0;
     left: 0;
     right: 0;
+
 }
 
 .about {
@@ -61,6 +67,7 @@ nav ul {
 
 h2 {
     text-align: center;
+    color: black;
 }
 
 .center {
@@ -73,11 +80,13 @@ h2 {
 
 h3 {
     text-align: center;
+    color: black;
 }
 
 .coursework {
     display: flex;
-    justify-content: center
+    justify-content: center;
+    color: black;
 }
 
 .v {

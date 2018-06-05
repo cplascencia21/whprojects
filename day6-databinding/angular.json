@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "day2": {
+    "day6-databinding": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/day2",
+            "outputPath": "dist/day6-databinding",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -50,18 +50,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "day2:build"
+            "browserTarget": "day6-databinding:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "day2:build:production"
+              "browserTarget": "day6-databinding:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "day2:build"
+            "browserTarget": "day6-databinding:build"
           }
         },
         "test": {
@@ -95,7 +95,7 @@
         }
       }
     },
-    "day2-e2e": {
+    "day6-databinding-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "architect": {
@@ -103,7 +103,7 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "day2:serve"
+            "devServerTarget": "day6-databinding:serve"
           }
         },
         "lint": {
@@ -118,5 +118,5 @@
       }
     }
   },
-  "defaultProject": "day2"
+  "defaultProject": "day6-databinding"
 }

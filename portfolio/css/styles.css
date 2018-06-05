@@ -1,3 +1,7 @@
+body {
+  color: #f2f5f7;
+}
+
 html {
   font-family: sans-serif;
 }
@@ -61,6 +65,7 @@ nav ul a:hover, nav ul a.active {
 
 h2 {
   text-align: center;
+  color: black;
 }
 
 .center {
@@ -73,11 +78,13 @@ h2 {
 
 h3 {
   text-align: center;
+  color: black;
 }
 
 .coursework {
   display: flex;
   justify-content: center;
+  color: black;
 }
 
 .v {
